@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wheelies and More</title>
-    <head>
-        <link rel="stylesheet" href="Style.css">
-        <script src="https://kit.fontawesome.com/af09669d4c.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" media="screen and (max-width: 1100px)" href="phone.css">
-    </head>
+    <title>Bikes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="phone.css">
+    <script src="https://kit.fontawesome.com/af09669d4c.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <header id="header">
         <h1><i class="fas fa-biking">&nbsp;</i>WHEELIES & MORE&nbsp;<i class="fas fa-biking"></i></h1>
@@ -23,7 +19,7 @@
                 <a href="index.html">HOME</a>
             </li>
             <li class="item ">
-                <a href="BIKES1.html">BIKES</a>
+                <a href="Bikes.html">BIKES</a>
             </li>
             <li class="item ">
                 <a href="about.html"> ABOUT US</a>
@@ -45,70 +41,9 @@
         </ul>
         <br>
     </nav>
-    <SECTION>
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 5</div>
-            <img src="./assets/jake-colling-w0veeEIceyI-unsplash.jpg" class="slider-img">
-                <!-- style="width:100%; height: 650px; border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;" -->
-        </div>
 
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 5</div>
-            <img class="slider-img" src="./assets/gary-butterfield-j0LTy2MqaMA-unsplash.jpg" >
-                <!-- style="width:100%; height: 650px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;"> -->
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 5</div>
-            <img src="./assets/timotheus-frobel-DiCNHqRzs4w-unsplash.jpg" class="slider-img">
-                <!-- style="width:100%; height: 650px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;"> -->
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 5</div>
-            <img src="assets\istockphoto-1232568015-612x612.jpg" class="slider-img">
-                <!-- style="width:100%; height: 650px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;"> -->
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">5 / 5</div>
-            <img src="assets\istockphoto-959028830-612x612.jpg" class="slider-img">
-                <!-- style="width:100%; height: 650px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;"> -->
-        </div>
-    </div>
-
-    <br>
-    <div id="dot-style">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-    </div>
-    <script>
-        var slideIndex = 0;
-        showSlides();
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            setTimeout(showSlides, 2500); // Change image every 3 seconds
-        }
-    </script>
-    </SECTION>
-    <br>
-    <section class="Type_OfF_Vehicles">
+    <!--Type Of Vehicles-->
+    <section class="Type_Of_Vehicles">
         <div id="Box">
             <div class="box">
                 <img src="./assets/bmx.jpg" alt=" ">
@@ -147,11 +82,11 @@
             <div class="box">
                 <h2 class="h-secondary centre ">Social Media</h2>
                 <span id="icon">
-                  <div> <a href=""><i class="fab fa-instagram"></i></a></div>
-                  <div> <a href=""><i class="fab fa-facebook-square"></i></a></div>
-                  <div> <a href=""><i class="fab fa-twitter-square"></i></a></div>
-                  <div> <a href=""><i class="fab fa-youtube"></i></a></div>
-                </span>
+                    <div> <a href=""><i class="fab fa-instagram"></i></a></div>
+                    <div> <a href=""><i class="fab fa-facebook-square"></i></a></div>
+                    <div> <a href=""><i class="fab fa-twitter-square"></i></a></div>
+                    <div> <a href=""><i class="fab fa-youtube"></i></a></div>
+                  </span>
               </div>
             <div class="box">
                 <h2 class="h-secondary centre ">ABOUT US</h2>
@@ -169,15 +104,15 @@
             </div>
             <div class="box">
               <h2 class="h-secondary centre ">Bicycles</h2>
-                <div>    <a href="bicyclemotocross.html">BICYCLE MOTOCROSS</a></div>
-                <div>    <a href="hybridcycle.html">HYBRID BICYCLE</a></div>
-                <div>  <a href="mountainCycle.html">MOUNTAIN BICYCLE</a></div>
-                <div>  <a href="#">OTHERS</a></div>
+                <div>    <a href="">BICYCLE MOTOCROSS</a></div>
+                <div>    <a href="">HYBRID BICYCLE</a></div>
+                <div>  <a href="">MOUNTAIN BICYCLE</a></div>
+                <div>  <a href="">OTHERS</a></div>
             </div>
         </div>
     </section>
 </body>
     <footer>
-        <div class="centre">copyright &copy; www.wheelies.com. All rights reserved.</div>
+        <div class="centre">copyright &copy; www.wheel's.com. All rights reserved;</div>
     </footer>
 </html>
