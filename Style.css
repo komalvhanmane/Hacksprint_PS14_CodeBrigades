@@ -16,7 +16,7 @@ html {
     color: #bcb5b5;
     height: 50px;
     font-family: 'Black Ops One', cursive;
-font-family: 'Suez One', serif;
+    font-family: 'Suez One', serif;
 }
 /*Navigation bar*/
 #navbar {
@@ -28,16 +28,13 @@ font-family: 'Suez One', serif;
     align-items: center;
     justify-content: center;
     height: 90px;
-    
 }
 .navRight{
-    
     float: right;
     color: white;
     padding: 12px 75px;
 }
 #search{
-    
     border: 2px solid black;
     border-radius: 29px;
     padding: 6px 30px;
@@ -69,7 +66,6 @@ font-family: 'Suez One', serif;
     border-radius: 20px;
     text-decoration: none;
     color: white;
-   
 }
 #navbar ul li a:hover {
     color: rgb(0, 0, 0);
